@@ -141,7 +141,7 @@ class ShowProfile extends React.Component {
         if(response){
           self.setState({name:response.data.name});
           self.setState({email:response.data.email});
-          self.setState({password:response.data.email});  
+          self.setState({password:response.data.password});  
         }
       })
       .catch(function (error) {
